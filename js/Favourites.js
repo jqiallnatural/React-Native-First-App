@@ -1,12 +1,14 @@
 import React from 'react';
-import { Image, View, FlatList, AsyncStorage, StyleSheet, Button, Text } from "react-native"
+import { Image, View, FlatList, AsyncStorage, StyleSheet, Button, Text, Dimensions } from "react-native"
 import { withNavigationFocus } from 'react-navigation';
 import { NavigationEvents } from "react-navigation"
 
+const itemHeight = Dimensions.get('window').height / 3
+const itemWidth = Dimensions.get('window').width
 function Item({name, url, id}){
   return(
     <View>
-      <Image source={{uri: url}} style= {{width:'150%', height:'150%'}} />
+      <Image source={{uri: url}} style= {{width: itemWidth, height: itemHeight }} />
       <Text>{name} 123</Text>
     </View>
   )
