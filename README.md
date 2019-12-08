@@ -1,14 +1,9 @@
 # Intro To React Native
-#### By Simon Stern
-
-
-### This project is for the [React Native Creative Workshop on December 2nd](https://www.meetup.com/React-Native-Creative-Active/events/265858749/). 
+#### By Jiaqi Zhao
+#### Initial set-up: Simon Stern
 
 ## Please follow the steps below to get a repo that should look exactly like this one. You should also be able to clone this repo and run it locally, and see the following screen  with your phone or simulator showing
 
-![Image](https://i.imgur.com/8YCjwmp.png)
-
-### This workshop is for developers with *some* React experience. The focus will be on bridging that knowledge to React Native
 
 ---- 
 
