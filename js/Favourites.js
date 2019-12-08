@@ -5,7 +5,8 @@ import { NavigationEvents } from "react-navigation"
 
 const itemHeight = Dimensions.get('window').height / 3
 const itemWidth = Dimensions.get('window').width
-function Item({name, url, id}){
+
+const Item = ({name, url, id}) => {
   return(
     <View>
       <Image source={{uri: url}} style= {{width: itemWidth, height: itemHeight }} />

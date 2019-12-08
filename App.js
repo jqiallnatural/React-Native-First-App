@@ -5,25 +5,17 @@ import { createBottomTabNavigator } from 'react-navigation-tabs'
 import Swiper from './js/SwipeCards'
 import FavoritesList from './js/Favourites'
 
-class HomeScreen extends React.Component {
-  render() {
-    return (
+const HomeScreen = () => (
       <View style={{ flex:1, alignItems: 'center', justifyContent: 'center' }}>
         <Text>HomeScreen</Text>
       </View>
-    )
-  }
-}
-
-class FavoritesScreen extends React.Component {
-  render() {
-    return (
+)
+const FavoritesScreen = () => (
       <View style={{ flex:1, alignItems: 'center', justifyContent: 'center' }}>
         <FavoritesList/>>
       </View>
     )
-  }
-}
+    
 const AppNavigator = createBottomTabNavigator(
   {
   Home: Swiper,
