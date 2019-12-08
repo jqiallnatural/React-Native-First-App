@@ -8,7 +8,6 @@
 ---- 
 
 1) **[Install Expo from here](https://docs.expo.io/versions/v35.0.0/get-started/installation/)**
-2) Create a new expo app with `expot init my-new-project`
 
 #### **Following the Expo instructions will let your preview your app on either a simulator or physical device:** 
 
@@ -23,3 +22,4 @@
   - [Android](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en_CA)
   - [iOS](https://apps.apple.com/app/apple-store/id982107779)
   
+## If you already have React Native environment set up, you can just clone the repo and run it.
